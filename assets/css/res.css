@@ -1,0 +1,399 @@
+/*tablet*/
+@media (min-width: 740px) and (max-width: 1023px) {
+body {
+}
+/*common*/
+.text {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #717171;
+    
+}
+.text_des{    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #636060;
+
+}
+main {
+    position: relative;
+    width: 100%;
+    height: 3608px; 
+}
+#welcome {
+    height: 420px;
+    flex-direction: row-reverse;
+}
+
+#leafs {
+    width: 280px;
+    height: 254.15px;
+}
+
+#leafs img{
+    width: 280px;
+    height: 254.15px;
+}
+#welcome1 {
+    width: 346px;
+    height: 310px;
+}
+#welcome1 .text {
+    width: 341px;
+    height: 101px;
+}
+
+#welcome1 .text_des {
+    width: 341px;
+    height: 105px;
+    left:0;
+    top: 143px;
+}
+#about {
+    position: absolute;
+    width : 100%;
+    height: 783px;
+    top: 427px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+#about_us {
+    width: 668px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: auto;
+}
+#about_us .head_text{
+    width: 463px;
+    height: 102px;
+    margin: auto;
+    text-align: center;
+}
+
+#about_us .text_des{
+    width: 668px;
+    height: 208px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: auto;
+    text-align: justify;
+    padding-top: 20px;
+    color: #636060;
+}
+#planthouse {
+    width: 250px;
+    height: 258px;
+    margin: auto;
+    padding-bottom: 45px;
+}
+#planthouse img{
+    width: 250px;
+    height: 258px;
+
+}
+#service {
+    height: 1780px;
+    top: 1203px;
+}
+#service_content{
+    width: 668px;
+    height: 184px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#service_btns {
+    margin-left: 0;
+    margin-bottom: 0;
+    
+}
+#services {
+    width: 668px;
+    height: 1426px;
+    margin-top: 0;
+}
+
+#price {
+    height: 585px;
+    top: 2983px;
+}
+
+#prices {
+    height: 381.01px;
+    margin: unset;
+    margin-top: 40px;
+}
+#leaf_and_text {
+    width: 296px;
+    height: 233px;
+    font-size: 25px;
+    line-height: 35px;
+    margin: unset;
+    margin-top: 139px;
+}
+#contacts {
+    height: 739px;
+    top: 3568px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#contacts .item1 {
+    order: 3;
+}
+#contacts img {
+    width: 200px;
+    height: 248.49px;
+    margin: auto;
+    margin-bottom: 0;
+}
+#con_text {
+    margin: auto;
+}
+#choose {
+    margin: auto;
+    margin-top: 0;
+}
+#choose img{
+    height: 16px;
+    width: 16px;
+    margin: auto;
+}
+#footer {
+    width: 100%;
+    height: 181px;
+    top: 4424px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;  
+}
+#footer_data {
+    height: 24px;
+    width: 210px;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+#footer .foot_text{
+    width: 210px;
+    height: 24px;
+    margin-top: 5px;
+}
+#social_list {
+    margin-top: unset;
+    
+}
+}
+/*Mobile*/
+@media (max-width: 739px) {
+body {
+    }
+.text {
+    font-size: 25px;
+    line-height: 35px;
+    color: #717171; 
+}    
+.text_des {
+    font-size: 16px;
+    line-height: 25px;
+}
+.head_text{    
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    color: #499A18;
+}
+#header {
+    width: 380px;
+    height: 96px;
+}
+#welcome {
+    height: 300px;
+}
+#welcome1 {
+    width: 330px;
+    height: 252px;
+    margin: unset;
+}
+#welcome1 .text {
+    width: 330px;
+    height: 72px;
+}
+#welcome1 .text_des {
+   width: 314.52px;
+}
+#leafs{
+    display: none;
+}
+#about {
+    height: 516px;
+    top: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#about_us {
+    width: 330px;
+    height: 365px;
+    justify-content: space-around;
+}
+#about_us .head_text{
+    width: 288px;
+    height: 57.74px;
+    text-align: center;
+}
+
+#about_us .text_des{
+    width: 330px;
+    height: 228.38px;
+}
+#planthouse {
+    width: 150px;
+    height: 147px;
+}
+#planthouse img{
+    width: 150px;
+    height: 147px;
+}
+#service{
+    height: 3150px;
+    top: 816px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#service_content{
+    width: 300px;
+    height: 184px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#service_content .head_text {
+    width: 187px;
+    height: 69px;
+}
+#service_btns {
+    width: 252px;
+    height: 79px;
+    flex-wrap: wrap;
+    margin: unset;
+}
+#service_btns button {
+    width: 121px;
+    height: 35px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin: unset;
+}
+#services .service_item{
+    width: 279px;
+    height: 450px;
+}
+#services{
+    width: 279px;
+    height: 2870px;
+}
+#services .picture {
+    width: 279px;
+}
+#services .rectangle{
+    width: 279px;
+}
+#price {
+    height: 512px;
+    top: 3966px;
+    flex-direction: column;
+}
+#prices {
+    height: 302px;
+    width: 224px;
+    align-items: center;
+}
+#prices_item {
+    width: 224px;
+    height: 235px;
+}
+#prices_item .prices_text{
+    width: 180px;
+    height: 49.72px;
+    font-size: 15px;
+}
+#leaf_and_text {
+    width: 230px;
+    height: 126px;
+    align-items: center;
+    text-align: center;
+}
+#leaf_and_text .text {
+    font-size: 20px;
+}
+#leaf_and_text button {
+    width: 121px;
+    height: 35px;
+    float: unset;
+}
+#leaf_and_text img{
+    display: none;
+}
+#contacts {
+    height: 445px;
+    top: 4478px;
+    flex-direction: column;
+}
+#contacts .item1 {
+    order: 3;
+}
+#contacts img {
+    width: 100px;
+    height: 124.25px;
+    margin: auto;
+    margin-bottom: 0;
+}
+#con_text {
+    width: 192px;
+    height: 34px;
+    font-size: 25px;
+    line-height: 33px;
+    margin: auto;
+    text-align: center;
+}
+#choose {
+    width: 300px;
+    margin: auto;
+    margin-top: 0;
+}
+#choose img{
+    height: 16px;
+    width: 16px;
+    margin: auto;
+}
+#footer {
+    height: 146px;
+    top: 5019px;
+    flex-direction: column;
+}
+#footer_data {
+    height: 24px;
+    width: 165px;
+    line-height: 24px;
+    margin-top: 30px;
+}
+
+#footer .foot_text{
+    width: 210px;
+    height: 24px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+#social_list {
+    width: 165px;
+    margin-top: unset;
+}
+}
