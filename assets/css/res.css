@@ -1,6 +1,7 @@
 /*tablet*/
 @media (min-width: 740px) and (max-width: 1023px) {
 body {
+    overflow-x: hidden;
 }
 /*common*/
 .text {
@@ -148,23 +149,16 @@ main {
 #contacts .item1 {
     order: 3;
 }
-#contacts img {
-    width: 200px;
-    height: 248.49px;
-    margin: auto;
-    margin-bottom: 0;
-}
+
 #con_text {
     margin: auto;
 }
-#choose {
+.choose {
     margin: auto;
     margin-top: 0;
 }
-#choose img{
-    height: 16px;
-    width: 16px;
-    margin: auto;
+.accordion_contact::after{
+    right: 15rem;
 }
 #footer {
     width: 100%;
@@ -194,6 +188,7 @@ main {
 /*Mobile*/
 @media (max-width: 739px) {
 body {
+    overflow-x: hidden;
     }
 .text {
     font-size: 25px;
@@ -210,9 +205,50 @@ body {
     line-height: 33px;
     color: #499A18;
 }
-#header {
-    width: 380px;
-    height: 96px;
+header {
+    width: 100%;
+    height: 97px;
+}
+
+.navbar { 
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    top: 80px;
+    transition: 0.2s;
+    margin: unset;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba(255,255,255,0.20);
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    left: 10000px;
+    transition: left linear .5s;
+}
+.active {
+    top: 80px;
+    left: 0;
+}
+.navbar ul{
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li {
+    font-size: 1.2em ;
+    margin: 25px 0;
+}
+
+
+header .menu_mobile{
+    display: block;
+    cursor: pointer;
+}
+header .menu_mobile div {
 }
 #welcome {
     height: 300px;
@@ -324,6 +360,12 @@ body {
     width: 180px;
     height: 49.72px;
     font-size: 15px;
+}
+.choose {
+    margin: auto;
+}
+.accordion_contact::after{
+    right: 5rem;
 }
 #leaf_and_text {
     width: 230px;
